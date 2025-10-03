@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package br.com.ifba.atividade01.view;
+package br.com.ifba.atividade03.view;
 
 /**
  *
@@ -50,7 +50,7 @@ public class TelaCalculadora extends javax.swing.JFrame {
         lblData_de_nascimento.setText("Informe sua data de nascimento:");
         getContentPane().add(lblData_de_nascimento, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 230, 30));
 
-        txtDia.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        txtDia.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtDia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtDiaActionPerformed(evt);
@@ -61,7 +61,7 @@ public class TelaCalculadora extends javax.swing.JFrame {
         btnCalcularIdade.setBackground(new java.awt.Color(255, 0, 0));
         btnCalcularIdade.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
         btnCalcularIdade.setForeground(new java.awt.Color(255, 255, 255));
-        btnCalcularIdade.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade01/image/calculate_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
+        btnCalcularIdade.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade03/image/calculate_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         btnCalcularIdade.setText("CALCULAR ");
         btnCalcularIdade.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,10 +79,10 @@ public class TelaCalculadora extends javax.swing.JFrame {
         lblIdade_show.setText("IDADE");
         getContentPane().add(lblIdade_show, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 60, 30));
 
-        lblCalendar_image.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade01/image/calendar_today_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
+        lblCalendar_image.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade03/image/calendar_today_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"))); // NOI18N
         getContentPane().add(lblCalendar_image, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 40, 20));
 
-        lblImage_profile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade01/image/image_perfil.png"))); // NOI18N
+        lblImage_profile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade03/image/image_perfil.png"))); // NOI18N
         getContentPane().add(lblImage_profile, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 60, 110, 110));
 
         lblDia.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -93,7 +93,7 @@ public class TelaCalculadora extends javax.swing.JFrame {
         lblMes.setText("MÊS");
         getContentPane().add(lblMes, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 80, -1, -1));
 
-        txtMes.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        txtMes.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtMes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtMesActionPerformed(evt);
@@ -104,7 +104,7 @@ public class TelaCalculadora extends javax.swing.JFrame {
         lblAno.setText("ANO");
         getContentPane().add(lblAno, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, -1, -1));
 
-        txtAno.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        txtAno.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(txtAno, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, 60, -1));
 
         lblTratamento_de_erros.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N

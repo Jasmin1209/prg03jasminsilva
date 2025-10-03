@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package br.com.ifba.atividade02.view;
+package br.com.ifba.atividade04.view;
 
 /**
  *
@@ -55,17 +55,17 @@ public class TelaAdvinheOnumeroDoGenio extends javax.swing.JFrame {
         lblresult.setForeground(new java.awt.Color(255, 255, 255));
         lblresult.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblresult.setText("Vou pensar em um número entre 1 e 5,\n tente adivinhar");
-        getContentPane().add(lblresult, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 370, 50));
+        getContentPane().add(lblresult, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 370, 50));
 
         jLabel1.setText("Selecione um número");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, -1, -1));
 
         lblballon_result.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        lblballon_result.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade02/image/balaoDeFala1.png"))); // NOI18N
-        getContentPane().add(lblballon_result, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, -20, -1, 200));
+        lblballon_result.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade04/image/balaoDeFala1.png"))); // NOI18N
+        getContentPane().add(lblballon_result, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, -20, 470, 180));
 
-        lblimage_genio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade02/image/genio.png"))); // NOI18N
-        getContentPane().add(lblimage_genio, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 120, 230, 200));
+        lblimage_genio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade04/image/genio.png"))); // NOI18N
+        getContentPane().add(lblimage_genio, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 100, 280, 230));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
