@@ -49,10 +49,10 @@ public class TelaRepeticaoComSlider extends javax.swing.JFrame {
         getContentPane().add(lblinicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, -1, -1));
 
         lblfim.setText("FIM");
-        getContentPane().add(lblfim, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, -1, -1));
+        getContentPane().add(lblfim, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, -1, -1));
 
         lblpasso.setText("PASSO");
-        getContentPane().add(lblpasso, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, -1));
+        getContentPane().add(lblpasso, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, -1));
 
         sldvalorminimo.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
