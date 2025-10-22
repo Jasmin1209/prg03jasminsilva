@@ -138,7 +138,7 @@ public class Usuario {
         }
     }
     
-    public Sessao criarSessao() {
+    public Sessao criarSessao() {                                  //UUID é um identificador único que será gerado aleatoriamente para o token
         Sessao s = new Sessao((long) (Math.random() * 1000), this, UUID.randomUUID().toString());
         sessao.add(s);
         return s;
